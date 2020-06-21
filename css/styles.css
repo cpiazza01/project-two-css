@@ -35,27 +35,24 @@ body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 10px;
+  border: solid 1px #FFFFFF;
   color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin: 50px auto;
   padding: 10px 20px;
   text-shadow: 1px 1px 20px #000000;
   text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
   text-align: center;
-  margin: 50px auto;
 }
 
 .btn:hover {
   color: #66BFBF;
   background: #FFFFFF;
-  border: solid #66BFBF 1px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  text-decoration: none;
+  border: solid 1px #66BFBF;
 }
 
 .contact-me {
@@ -71,9 +68,14 @@ body {
   display: inline-block;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   margin: 20px auto;
+}
+
+.footer-link:hover {
+  color: #e0dede;
 }
 
 h1 {
